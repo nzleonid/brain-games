@@ -1,0 +1,22 @@
+{
+  "name": "brain-games",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "bin": {
+    "brain-games": "src/bin./brain-games.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nzleonid/project-lvl1-s400.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/cli": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0"
+},
+  "author": "Leonid",
+  "license": "ISC",
+
+}
