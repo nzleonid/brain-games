@@ -1,11 +1,14 @@
 {
-  "name": "brain-games",
+  "name": "brain-games_nzleonid",
   "version": "1.0.0",
   "description": "",
   "main": "",
   "bin": {
-    "brain-games": "src/bin./brain-games.js"
+    "brain-games": "dist/bin/brain-games.js"
   },
+  "files": [
+    "dist"
+ ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nzleonid/project-lvl1-s400.git"
