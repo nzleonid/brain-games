@@ -1,13 +1,16 @@
 {
   "name": "brain-games_nzleonid",
   "version": "0.1.1",
-  "description": "",
+  "description": "A set of logical mini games",
   "main": "",
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
   },
   "files": [
     "dist"
+  ],
+  "keywords": [
+  "brain-games"
   ],
   "scripts": {
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
