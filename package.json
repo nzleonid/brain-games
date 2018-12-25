@@ -1,6 +1,6 @@
 {
   "name": "brain-games_nzleonid",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A set of logical mini games",
   "main": "",
   "bin": {
@@ -32,6 +32,10 @@
     "@babel/preset-env": "^7.1.0"
   },
   "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.11.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
     "readline-sync": "^1.4.9"
   }
 }
