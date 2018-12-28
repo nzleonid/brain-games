@@ -1,16 +1,14 @@
-import { cons, car, cdr } from 'hexlet-pairs';
 import gameEngine from '..';
 
 const randomNum = (min, max) => Math.floor(Math.random() * (max - min)) + min;
-const rules = ('What is the result of the expression?\n');
-const pair = (x, y) => cons(x, y);
+const description = ('What is the result of the expression?\n');
+
+const operationList = '+-*';
 
 const calc = () => {
-  const operationList = '+-*';
-  const numbers = pair(randomNum(1, 100), randomNum(1, 100));
-  const x = car(numbers);
-  const y = cdr(numbers);
-  const operation = operationList[randomNum(0, 3)];
+  const x = randomNum(1, 100);
+  const y = randomNum(1, 100);
+  const operation = operationList[randomNum(0, operationList.length)];
   let rightAnswer;
   let question;
   switch (operation) {
@@ -35,4 +33,4 @@ const calc = () => {
   return [question, rightAnswer];
 };
 
-export default () => gameEngine(rules, calc);
+export default () => gameEngine(description, calc);
