@@ -1,7 +1,7 @@
 import gameEngine from '..';
+import randomNum from '../utils';
 
-const randomNum = (min, max) => Math.floor(Math.random() * (max - min)) + min;
-const description = ('What is the result of the expression?\n');
+const description = 'What is the result of the expression?\n';
 
 const operationList = '+-*';
 
