@@ -14,8 +14,8 @@ const gcdFind = (x, y) => {
 };
 
 const gcd = () => {
-  const x = Math.abs(randomNum(1, 100));
-  const y = Math.abs(randomNum(1, 100));
+  const x = randomNum(1, 100);
+  const y = randomNum(1, 100);
   const question = `${x} ${y}`;
   const rightAnswer = gcdFind(x, y);
   return [question, String(rightAnswer)];
