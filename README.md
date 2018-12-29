@@ -9,7 +9,7 @@ Brain games
 # Brain-even
 [![asciicast](https://asciinema.org/a/FzPLLMjFj9bwSrL2hOY5EiIq7.svg)](https://asciinema.org/a/FzPLLMjFj9bwSrL2hOY5EiIq7)
 # Brain-calc
-[![asciicast](https://asciinema.org/a/COm5ckvxRWn9qfEVOFh2Sz4KA.svg)](https://asciinema.org/a/COm5ckvxRWn9qfEVOFh2Sz4KA)
+[![asciicast](https://asciinema.org/a/6vLO89MJM0VujV2JgUkj3TsTY.svg)](https://asciinema.org/a/6vLO89MJM0VujV2JgUkj3TsTY)
 # Brain-gcd
 [![asciicast](https://asciinema.org/a/utB2pI61ywgbu6iJ0udlPhWKm.svg)](https://asciinema.org/a/utB2pI61ywgbu6iJ0udlPhWKm)
 # Brain-progression
