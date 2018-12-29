@@ -1,7 +1,7 @@
 import gameEngine from '..';
 import randomNum from '../utils';
 
-const description = 'Find the greatest common divisor of given numbers.\n';
+const description = 'Find the greatest common divisor of given numbers.';
 
 const gcdFind = (x, y) => {
   let divider = Math.min(x, y);
